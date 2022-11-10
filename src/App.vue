@@ -12,7 +12,7 @@ const cos = Math.cos;
 const pow = Math.pow;
 const abs = Math.abs;
 const  PI = Math.PI;
-const option : Ref = ref({
+const option : any = {
   tooltip: {},
   visualMap: {
     show: false,
@@ -109,7 +109,7 @@ const option : Ref = ref({
       }
     }
   ]
-});
+};
 </script>
 
 <style scoped>
